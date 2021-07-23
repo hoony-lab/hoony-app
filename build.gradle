@@ -25,15 +25,31 @@ repositories {
 }
 
 dependencies {
+//    spring boot web
+    compile('org.springframework.boot:spring-boot-starter-web')
+
+//    lombok
+    compile('org.projectlombok:lombok')
+//    annotationProcessor('org.projectlombok:lombok')
+//    testAnnotationProcessor('org.projectlombok:lombok')
+
+//    database
+    compile('com.h2database:h2')
+
+//    spring data jpa
+//    구현체 교체의 용이성 : hibernate 외의 다른 구현체로 쉽게 교체하기 위함 (Jedis -> Lettuce)
+//    저장소 교체의 용이성 : RDB 외의 다른 저장소로 쉽게 교체하기 위함 (Spring Data JPA -> Spring Data MongoDB)
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+
+//    spring boot test
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+
+//    junit 4
     implementation 'junit:junit:4.13.1'
 
+//    junit 5
 //    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
 //    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-    compile('org.springframework.boot:spring-boot-starter-web')
-    compile('org.projectlombok:lombok')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
-    annotationProcessor('org.projectlombok:lombok')
-    testAnnotationProcessor('org.projectlombok:lombok')
 }
 
 test {
