@@ -1,5 +1,6 @@
 package com.hoony.lab.app.web;
 
+import com.hoony.lab.app.config.auth.LoginUser;
 import com.hoony.lab.app.config.auth.dto.SessionUser;
 import com.hoony.lab.app.service.posts.PostsService;
 import com.hoony.lab.app.web.dto.PostsResponseDto;
@@ -19,10 +20,10 @@ public class IndexController {
     private final HttpSession httpSession;
 
     @GetMapping("/")
-    public String index(Model model) {
+    public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postsService.findAllDesc());
 
-        SessionUser user = (SessionUser) httpSession.getAttribute("user");
+//        SessionUser user = (SessionUser) httpSession.getAttribute("user");
         if (user != null) {
             System.out.println("############# " + user.getName());
             System.out.println("############# " + user.getEmail());
