@@ -154,3 +154,6 @@ gradle-app.setting
 **/build/
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,java,gradle
+
+# OAuth client-id and client-secret
+application-oauth.properties
