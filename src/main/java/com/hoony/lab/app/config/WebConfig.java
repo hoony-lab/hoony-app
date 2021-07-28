@@ -1,5 +1,6 @@
-package com.hoony.lab.app.config.auth;
+package com.hoony.lab.app.config;
 
+import com.hoony.lab.app.config.auth.LoginUserArgumentResolver;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.method.support.HandlerMethodArgumentResolver;

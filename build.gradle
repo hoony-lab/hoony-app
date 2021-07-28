@@ -44,6 +44,9 @@ dependencies {
 //    spring boot test
     testCompile('org.springframework.boot:spring-boot-starter-test')
 
+//    spring security test
+    testCompile ("org.springframework.security:spring-security-test")
+
 //    junit 4
     implementation 'junit:junit:4.13.1'
 
