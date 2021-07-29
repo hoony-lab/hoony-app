@@ -28,7 +28,8 @@ public class IndexController {
             System.out.println("############# " + user.getName());
             System.out.println("############# " + user.getEmail());
             System.out.println("############# " + user.getPicture());
-            model.addAttribute("userName", user.getEmail());
+            model.addAttribute("user", user.getName());
+            System.out.println("############# " + model.getAttribute("userName"));
         }
         return "index";
     }
