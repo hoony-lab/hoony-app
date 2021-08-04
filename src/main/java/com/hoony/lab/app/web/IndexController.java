@@ -27,7 +27,7 @@ public class IndexController {
             System.out.println("############# " + user.getName());
             System.out.println("############# " + user.getEmail());
             System.out.println("############# " + user.getPicture());
-            model.addAttribute("loginUser", user);
+            model.addAttribute("loginUser", user.getName());
         }
         return "index";
     }
