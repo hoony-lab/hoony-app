@@ -30,8 +30,8 @@ dependencies {
 
 //    lombok
     compile('org.projectlombok:lombok')
-//    annotationProcessor('org.projectlombok:lombok')
-//    testAnnotationProcessor('org.projectlombok:lombok')
+    annotationProcessor('org.projectlombok:lombok')
+    testAnnotationProcessor('org.projectlombok:lombok')
 
 //    database
     compile('com.h2database:h2')
@@ -61,7 +61,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-oauth2-client')
 
 //    spring session jdbc
-    compile('org.springframework.boot:spring-session-jdbc')
+    compile('org.springframework.session:spring-session-jdbc')
 }
 
 test {
