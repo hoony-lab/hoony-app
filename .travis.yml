@@ -36,6 +36,8 @@ deploy:
     acl: private
     local_dir: deploy
     wait_until_deployed: true
+    on:
+      all_branches: true
 
   - provider: codedeploy
     access_key_id: $AWS_ACCESS_KEY
@@ -47,6 +49,8 @@ deploy:
     deployment_group: hoony-app-group
     region: ap-northeast-2
     wait_until_deployed: true
+    on:
+      all_branches: true
 
 # CI 실행 완료 시 메일로 알람
 notifications:
