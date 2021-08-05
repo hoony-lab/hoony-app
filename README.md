@@ -1,5 +1,9 @@
 # 소개
 
+> Spring Boot 와 AWS를 활용한 웹 서비스 
+
+
+
 ## 기술 스택
 
 ✅ DEV : Spring Boot, Gradle, JPA, OAuth 2.0  
@@ -8,11 +12,9 @@
 ✅ CI/CD : Travis CI, AWS S3, AWS Codedeploy   
 
 
-
 ## 아키텍처
 
 ![](https://camo.githubusercontent.com/cc9fd5ff1b28c4d41067f7bdfd6563f7d01c610f14305a74b5c788d5f91821d1/68747470733a2f2f74312e6461756d63646e2e6e65742f6366696c652f746973746f72792f393936463736334435413733463931453236)
-
 
 
 ## AS-IS
