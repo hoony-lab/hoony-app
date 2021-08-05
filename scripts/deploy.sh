@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPOSITORY=/home/ubuntu/app/step2
+REPOSITORY=/home/ubuntu/app/step3
 PROJECT_NAME=hoony-app
 
 echo "> Build 파일 복사"
