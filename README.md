@@ -39,4 +39,4 @@
 
 # Web Link
 
-ec2-3-38-48-99.ap-northeast-2.compute.amazonaws.com
+~~ec2-3-38-48-99.ap-northeast-2.compute.amazonaws.com~~
