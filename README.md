@@ -37,4 +37,6 @@
 👀 MSA 아키텍처 구성  
 
 
+# Web Link
 
+ec2-3-38-48-99.ap-northeast-2.compute.amazonaws.com
