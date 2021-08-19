@@ -7,7 +7,7 @@
 ## 기술 스택
 
 ✅ DEV : Spring Boot, Gradle, JPA, OAuth 2.0  
-✅ TEST : JUnit5  
+✅ TEST : JUnit4  
 ✅ PROD : AWS EC2, AWS RDS, Nginx  
 ✅ CI/CD : Travis CI, AWS S3, AWS Codedeploy   
 
